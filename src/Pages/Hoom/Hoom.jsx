@@ -1,10 +1,11 @@
 import React from 'react';
+import Banner from '../../components/Banner/Banner';
 
 const Hoom = () => {
     return (
-        <div>
-            hey im hom
-        </div>
+      <>
+      <Banner></Banner>
+      </>
     );
 };
 
