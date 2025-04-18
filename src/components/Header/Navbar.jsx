@@ -1,9 +1,10 @@
 import React from 'react';
+import {  NavLink } from 'react-router';
 
 const Navbar = () => {
     const link = <>
-    <li className='btn mr-4 cursor-pointer'>Home</li>
-    <li className='btn mr-4 cursor-pointer'>About</li>
+    <NavLink to="/" className='btn mr-4 cursor-pointer'>Home</NavLink>
+    <NavLink to="/About" className='btn mr-4 cursor-pointer'>About</NavLink>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
