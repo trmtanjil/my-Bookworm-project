@@ -17,9 +17,10 @@ import Hoom from '../Pages/Hoom/Hoom';
         {
             index:true,
             path: '/',
+            loader:()=>fetch('./BookData.json'),
             Component:Hoom,
-
         },
+        
     ],
    },
  ]);
